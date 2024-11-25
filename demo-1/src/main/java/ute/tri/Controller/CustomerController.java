@@ -14,8 +14,8 @@ import ute.tri.Model.Customer;
 @RestController
 public class CustomerController {
     private final List<Customer> customers = List.of(
-            Customer.builder().id("001").name("Nguyễn Hữu Trung").email("trungnhspkt@gmail.com").build(),
-            Customer.builder().id("002").name("Hữu Trung").email("trunghuu@gmail.com").build()
+            Customer.builder().id("001").name("Phạm Nguyễn Minh Trí").email("trispkt@gmail.com").build(),
+            Customer.builder().id("002").name("Minh Trí").email("tri123@gmail.com").build()
     );
 
     @GetMapping("/hello")
